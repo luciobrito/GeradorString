@@ -11,7 +11,6 @@ func main() {
     fmt.Println("Digite o tamanho da string aleatória:")
     fmt.Scan(&tamanhoString)
     fmt.Println(stringAleatoria(tamanhoString));
-    
 }
 func stringAleatoria(tamanho int) string{
     letras := "abcdefghijklmnopqrstuvwxyz"
